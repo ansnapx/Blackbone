@@ -1,5 +1,6 @@
 #include "Remap.h"
 #include "Utils.h"
+#define NTSTRSAFE_LIB
 #include <Ntstrsafe.h>
 
 RTL_AVL_TABLE g_ProcessPageTables;      // Mapping table

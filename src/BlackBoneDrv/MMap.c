@@ -4,6 +4,7 @@
 #include "BlackBoneDef.h"
 #include "Utils.h"
 #include "apiset.h"
+#define NTSTRSAFE_LIB
 #include <ntstrsafe.h>
 
 #define IMAGE32(hdr) (hdr->OptionalHeader.Magic == IMAGE_NT_OPTIONAL_HDR32_MAGIC)
